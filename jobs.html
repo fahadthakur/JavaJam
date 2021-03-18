@@ -1,0 +1,44 @@
+<html>
+    <title>Java Jam Coffee House Jobs</title>
+    <body>
+        <header>
+            <h1>Java Jam Coffee House</h1>
+            <nav>
+                <a href="index.html">Home</a>&nbsp;
+                <a href="menu.html">Menu</a>&nbsp;
+                <a href="Music.html">Music</a>&nbsp;
+                <a href="jobs.html">Job</a>
+            </nav>
+            <main>
+                <h2>Jobs at Java Jam</h2>
+                <p>Want to work at JavaJam? Fill out the form below to start your application. Required fields are marked with an asterisk (*).</p>
+                <form method="POST" action="http://webdevbasics.net/scripts/javajam8.php">
+                    <label for="name">*Name</label> <br>
+                    <input id="name" type="text" required> <br>
+                    <label for="email">*E-mail</label> <br>
+                    <input id="email" type="email" required> <br>
+                    <label for="textarea">*Experience</label> <br>
+                    <textarea name="Experience" id="textarea" cols="40" rows="4" required></textarea> <br>
+                    <div>
+                        <label for="select choice">Select Job Position: </label>
+                        <select id="select choice">
+                        <option value="barista">Barista</option>
+                        <option value="manager">Manager</option>
+                        <option value="supervisor">Supervisor</option>
+                        </select>
+                    </div> <br>
+                    <label for="date">Preferred Interview Date and Time:</label> <br>
+                    <input type="datetime-local"> <br>
+                    <br><label for="photo">Upload your photo: </label>
+                    <input type="file"> <br>
+                    <button>Apply Now</button>
+                </form>
+                <br>
+                <footer>
+                    <small><i>Copyright &#169; 2021 JavaJam Coffee House <br>
+                    <a href="yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a></i></small>
+                </footer>
+            </main>
+        </header>
+    </body>
+</html>
